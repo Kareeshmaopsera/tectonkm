@@ -12,7 +12,7 @@ CREATE TABLE `myTable` (
   `BOD` varchar(255),
   PRIMARY KEY (`id`)
 ) AUTO_INCREMENT=1;
-
+spring.datasource.url=jdbc:sqlserver://serverkareeshma.database.windows.net:1433;database=Studentdatabase;user=Kareeshma@serverkareeshma;password=Chockiee@03;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30
 INSERT INTO `myTable` (`ID`,`Name`,`Address`,`MobileNo`,`Email`,`BOD`) VALUES (1,"Lucian Lindsey","157-2520 Mauris Avenue","(07745) 6435470","Fusce.aliquam@lorem.ca","Jun 28, 2020");
 INSERT INTO `myTable` (`ID`,`Name`,`Address`,`MobileNo`,`Email`,`BOD`) VALUES (2,"Jelani Riddle","968-5286 Cras Avenue","(036086) 763132","magna.Nam@consectetuerrhoncusNullam.ca","Aug 1, 2019");
 INSERT INTO `myTable` (`ID`,`Name`,`Address`,`MobileNo`,`Email`,`BOD`) VALUES (3,"Zachary Guerra","P.O. Box 627, 3831 Nibh. St.","(07110) 0192114","bibendum.fermentum.metus@aliquamenimnec.edu","Jun 22, 2020");
